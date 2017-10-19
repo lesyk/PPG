@@ -6,7 +6,7 @@
 [![Forks](https://img.shields.io/github/forks/iRB-Lab/PPG.svg?style=social&label=Fork)][fork]
 
 # PPG
-Photoplethysmogram-based Real-Time Cognitive Load Assessment Using Multi-Feature Fusion Model
+Photoplethysmogram-based Real-time Cognitive Load Assessment Using Multi-feature Fusion Model
 
 ## Installation
 ### Requirements
