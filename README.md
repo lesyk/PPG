@@ -401,7 +401,7 @@ semilogy(args, backend=None)
 [MIT License][license]
 
 [repository]: https://github.com/iRB-Lab/PPG "iRB-Lab/PPG"
-[license]: https://github.com/iRB-Lab/PPG/LICENSE "License"
+[license]: https://github.com/iRB-Lab/PPG/blob/master/LICENSE "License"
 [watch]: https://github.com/iRB-Lab/PPG/watchers "Watchers"
 [star]: https://github.com/iRB-Lab/PPG/stargazers "Stargazers"
 [fork]: https://github.com/iRB-Lab/PPG/network "Forks"
