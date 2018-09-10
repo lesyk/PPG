@@ -40,7 +40,8 @@ def validate_ppg_single_waveform(single_waveform, sample_rate=PPG_SAMPLE_RATE):
 
 
 def extract_ppg_single_waveform(signal, sample_rate=PPG_SAMPLE_RATE):
-    threshold = (max(signal) - min(signal)) * PPG_SYSTOLIC_PEAK_DETECTION_THRESHOLD_COEFFICIENT
+    tmp = np.array(extrema[1][1:])-np.array(extrema[1][:-1])
+    threshold = np.percentile(tmp[np.where(tmp>0)], 99) * PPG_SYSTOLIC_PEAK_DETECTION_THRESHOLD_COEFFICIENT
     single_waveforms = []
     last_extremum_index = None
     last_extremum = None
